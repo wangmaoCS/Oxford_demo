@@ -6,7 +6,7 @@ Centos 7.0 + Matlab + [Yael image retrieval library](https://gforge.inria.fr/frs
 ## Dataset
   !Please prepare the data file and set the right **data_dir** and **img_path** before running this code.
 - image data: download the image file of [Oxford5k dataset](http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/oxbuild_images.tgz)
-- feature data: download the local feature(sift), visual word, codebook and geometric information data from [ICCV2013 data](ftp://ftp.irisa.fr/local/texmex/corpus/iccv2013/)
+- feature data: download the local feature(sift), visual word, codebook and geometric information data from [ICCV2013 data](ftp://ftp.irisa.fr/local/texmex/corpus/iccv2013/)(ftp://ftp.irisa.fr/local/texmex/corpus/iccv2013/)
   - gnd_oxford.mat: the groundtruth data for 55 queries, the file name of each image and the index of queries.
   - oxford_geom_sift.float: the geometric information (the shape parameter of ellipse region).
   - oxford_nsift.uint32: the size of SIFT feature for each image.
@@ -30,7 +30,7 @@ Centos7.0 操作系统+Matlab+[Yael图像检索库](https://gforge.inria.fr/frs/
 ## 数据集
 在运行代码之前需要下载好数据文件并设置好自己的**data_dir** 和**img_path**
 - 图像数据: 下载图片集[Oxford5k dataset](http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/oxbuild_images.tgz)
-- 特征数据: 下载Oxford5k的特征数据集[ICCV2013 data](ftp://ftp.irisa.fr/local/texmex/corpus/iccv2013/)，由已有的论文[To aggregate or not to aggregate: Selective match kernels for image search](http://hal.inria.fr/docs/00/86/46/84/PDF/iccv13_tolias.pdf)提供，其中各个文件的解释如下：
+- 特征数据: 下载Oxford5k的特征数据集[ICCV2013 data](ftp://ftp.irisa.fr/local/texmex/corpus/iccv2013/)(ftp://ftp.irisa.fr/local/texmex/corpus/iccv2013/)，由已有的论文[To aggregate or not to aggregate: Selective match kernels for image search](http://hal.inria.fr/docs/00/86/46/84/PDF/iccv13_tolias.pdf)提供，其中各个文件的解释如下：
   - gnd_oxford.mat: Oxford5k数据集的groundtruth文件，包含55个查询在数据库中的索引以及所有图片的文件名
   - oxford_geom_sift.float: 从图片上所提取到的局部特征的几何信息（中心点和形状参数矩阵），每个局部特征覆盖一个椭圆形区域
   - oxford_nsift.uint32: 每个图片上所提取到的局部特征数目
