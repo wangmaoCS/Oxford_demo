@@ -1,4 +1,4 @@
-#Content-based Image Retrieval Demo with Oxford5k Dataset
+# Content-based Image Retrieval Demo with Oxford5k Dataset
 
 ## Environment
 Centos 7.0 + Matlab + [Yael image retrieval library](https://gforge.inria.fr/frs/download.php/file/34218/yael_matlab_linux64_v438.tar.gz)
@@ -24,9 +24,9 @@ Centos 7.0 + Matlab + [Yael image retrieval library](https://gforge.inria.fr/frs
 
 
 ## Result
-The initial matching result for query 1 and the second retrieval result is ![oxford_initial_match]()
+The initial matching result for query 1 and the second retrieval result is ![oxford_initial_match](https://github.com/wangmaoCS/Oxford_demo/blob/master/q1_db2_matches.jpg)
 
-The matching result after spatial verification for query 1 and the second retrieval result is ![oxford_sp_match]()
+The matching result after spatial verification for query 1 and the second retrieval result is ![oxford_sp_match](https://github.com/wangmaoCS/Oxford_demo/blob/master/q1_db2_matches_sv.jpg)
 
 
 ## 运行环境
@@ -53,6 +53,6 @@ Centos7.0 操作系统+Matlab+[Yael图像检索库](https://gforge.inria.fr/frs/
 
 
 ## 结果
-初始检索得到的结果如下（左边为查询，右边为第二个检索结果） ![oxford_initial_match]()
+初始检索得到的结果如下（左边为查询，右边为第二个检索结果） ![oxford_initial_match](https://github.com/wangmaoCS/Oxford_demo/blob/master/q1_db2_matches.jpg)
 
-经过空间校验之后的结果 ![oxford_sp_match]()
+经过空间校验之后的结果 ![oxford_sp_match](https://github.com/wangmaoCS/Oxford_demo/blob/master/q1_db2_matches_sv.jpg)
