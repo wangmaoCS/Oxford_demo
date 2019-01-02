@@ -23,11 +23,6 @@ Centos 7.0 + Matlab + [Yael image retrieval library](https://gforge.inria.fr/frs
 - wm_4_sv: based on the initial retrieval results from *wm_2_query*, refining the results by spatial verification
 
 
-## Result
-The initial matching result for query 1 and the second retrieval result is ![oxford_initial_match](https://github.com/wangmaoCS/Oxford_demo/blob/master/q1_db2_matches.jpg)
-
-The matching result after spatial verification for query 1 and the second retrieval result is ![oxford_sp_match](https://github.com/wangmaoCS/Oxford_demo/blob/master/q1_db2_matches_sv.jpg)
-
 
 ## 运行环境
 Centos7.0 操作系统+Matlab+[Yael图像检索库](https://gforge.inria.fr/frs/download.php/file/34218/yael_matlab_linux64_v438.tar.gz)，其中Yael库需要加入到Matlab的路径中
